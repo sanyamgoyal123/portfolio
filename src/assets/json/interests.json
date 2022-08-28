@@ -1,0 +1,20 @@
+[
+    {
+        "interestName": "Animation",
+        "type": "Computer Graphics",
+        "tool": "Blender",
+        "craftLink": [
+            "https://drive.google.com/file/d/13kNl6JH8wyO9tEnBf8uYPzbIxDicXlHk/view?usp=sharing",
+            "https://drive.google.com/file/d/1cRInndXgrfO1RGqBe2_2Kortvk3Fwh_r/view?usp=sharing",
+            "https://drive.google.com/file/d/1kcd9Jrc6IQhKGpgESgc_fCWAf_1m0RIg/view?usp=sharing"
+        ]
+    },
+    {
+        "interestName": "Nuero Linguistic Programming",
+        "type": "Psychology",
+        "tool": "-",
+        "craftLink": [
+
+        ]
+    }
+]

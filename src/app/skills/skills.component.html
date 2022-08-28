@@ -1,0 +1,17 @@
+<div class="status">
+    <h1>Skills</h1>
+    <button class="btn-hover color" type="submit" (click)="downloadResume()">Download Resume</button>
+</div>
+<div class="cards">
+    <div class="card" *ngFor="let skill of skills">
+        <h3>{{skill.name}}</h3>
+        <p><i>{{skill.description}}</i></p>
+        <div class="circles">
+            <div #percentage class="percentage"></div>
+            <div #percentage class="percentage"></div>
+            <div #percentage class="percentage"></div>
+            <div #percentage class="percentage"></div>
+            <div #percentage class="percentage"></div>
+        </div>
+    </div>
+</div>

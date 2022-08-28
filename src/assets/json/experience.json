@@ -1,0 +1,47 @@
+[
+    {
+        "companyName": "Amdocs",
+        "designation": "Software Engineer",
+        "responsibilities" : [
+            "Gathering the business requirements across all line of business by interacting with the clients.",
+            "Led multiple team in the responsibilities of daily guiding task responding to different requests from over 5 different clients.",
+            "Rapidly debugged many critical issues involving complicated calculations.",
+            "Excellent Hands-on experience on various Tools.",
+            "Analyzed functional requirement, use-case feasibility and estimate time for the use-case wrote business logic, data processing and transactions and presentation of data.",
+            "Meeting the clients and understanding the workload/work plan.",
+            "Involving in low level design and high level design reviews for the developing applications.",
+            "Involved and developed in Migration changes.",
+            "Version management of constructed code and deployment into different region."
+        ]
+    },
+    {
+        "companyName": "Advantal",
+        "designation": "Subject Matter Expert",
+        "responsibilities" : [
+            "Gathering the business requirements across all line of business by interacting with the clients.",
+            "Led multiple team in the responsibilities of daily guiding task responding to different requests from over 5 different clients.",
+            "Rapidly debugged many critical issues involving complicated calculations.",
+            "Excellent Hands-on experience on various Tools.",
+            "Analyzed functional requirement, use-case feasibility and estimate time for the use-case wrote business logic, data processing and transactions and presentation of data.",
+            "Meeting the clients and understanding the workload/work plan.",
+            "Involving in low level design and high level design reviews for the developing applications.",
+            "Involved and developed in Migration changes.",
+            "Version management of constructed code and deployment into different region."
+        ]
+    },
+    {
+        "companyName": "Virtusa",
+        "designation": "Software Engineer",
+        "responsibilities" : [
+            "Handle API calls and build faster Microservices over Spring Boot and Spring Webflux platform.",
+            "Working knowledge of Oracle/MySQL Database.",
+            "Build different purpose Automation application and Schedulers.",
+            "Provide High Level support to customer using our application.",
+            "Ability to learn and master Employer specific software.",
+            "Sterling written and verbal communication skills.",
+            "Ability to diagnose and address application issues to provide low level solution.",
+            "Deploy Build every two months which require Server restart.",
+            "Monitor System, Server and Components on daily basis."
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<div class="status">
+    <h1>Projects</h1>
+    <!-- <button class="btn-hover color" type="submit" (click)="downloadResume()">Download Resume</button> -->
+</div>
+<div class="cards">
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                <th>Company</th>
+                <th>Project Name</th>
+                <th>Working Span(In Months)</th>
+                <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let project of projects">
+                    <td>{{project.company}}</td>
+                    <td>{{project.project}}</td>
+                    <td>{{project.time}}</td>
+                    <td><span class="tooltip">info
+                        <div class="right">
+                            <h3>Description</h3>
+                            <p>{{project.description}}</p>
+                            <i></i>
+                        </div>
+                    </span></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

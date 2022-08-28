@@ -1,0 +1,67 @@
+h1 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 3rem;
+}
+
+h2,p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+.status {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn-hover {
+    width: 150px;
+    font-weight: 600;
+    color: #426696;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.btn-hover:hover {
+    border-radius: 5px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.5);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

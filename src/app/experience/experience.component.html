@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<div class="status">
+    <h1>Experience</h1>
+</div>
+
+<div class="container">
+    <div #experienceCard class="card" *ngFor="let experience of experiences">
+      <div class="face face1">
+        <div class="content">
+          <span class="stars"></span>
+          <h3>{{experience.designation}}</h3>
+          <div class="list-content" *ngFor="let point of experience.responsibilities">
+            <span class="material-symbols-outlined">chevron_right</span>
+            <p>{{point}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="face face2">
+        <h2>{{experience.companyName}}</h2>
+      </div>
+    </div>
+</div>
+<div class="center-con">
+  <a (click)="crousal()"><div class="round">
+        <div id="cta">
+            <span class="arrow primary next"></span>
+            <span class="arrow secondary next"></span>
+        </div>
+    </div></a>
+</div>

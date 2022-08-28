@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Java",
+        "description": "Programming Language",
+        "level": 4
+    },
+    {
+        "name": "CSS",
+        "description": "Sheet Style Language",
+        "level": 3
+    },
+    {
+        "name": "SQL",
+        "description": "Database",
+        "level": 4
+    },
+    {
+        "name": "Spring Boot",
+        "description": "Framework",
+        "level": 4
+    },
+    {
+        "name": "Spring Webflux",
+        "description": "Framework",
+        "level": 3
+    },
+    {
+        "name": "Git",
+        "description": "Version Control Tool",
+        "level": 4
+    },
+    {
+        "name": "Drools",
+        "description": "Expert System Tool",
+        "level": 3
+    },
+    {
+        "name": "Redis",
+        "description": "Cache Tool",
+        "level": 3
+    },
+    {
+        "name": "Apache Tomcat",
+        "description": "Web Server",
+        "level": 4
+    },
+    {
+        "name": "Blender",
+        "description": "Graphical Designer Tool",
+        "level": 4
+    },
+    {
+        "name": "Model And View",
+        "description": "Architecture",
+        "level": 4
+    },
+    {
+        "name": "Microservice",
+        "description": "Architecture",
+        "level": 3
+    },
+    {
+        "name": "SNMP v1/v2/v3",
+        "description": "Protocol",
+        "level": 4
+    },
+    {
+        "name": "Task Management",
+        "description": "Management",
+        "level": 4
+    },
+    {
+        "name": "Prioritization",
+        "description": "Management",
+        "level": 4
+    },
+    {
+        "name": "Calm Mindset",
+        "description": "Interpersonal",
+        "level": 0
+    }
+]

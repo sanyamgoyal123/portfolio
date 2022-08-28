@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65efc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+h2,p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1, .circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle3 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
+
+.circle3 {
+    top: 4%;
+    left: 8%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+}
+
+.container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    /* justify-content: space-evenly; */
+}
+
+.material-symbols-outlined {
+    color: #426696;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' -25,
+    'opsz' 40
+}
+
+.link {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 2px 2rem;
+    align-items: center;
+    /* background: linear-gradient(to right top, #65efc9, #6cdbeb); */
+    /* border: 1px solid transparent;
+    border-image: linear-gradient(to right top, #65efc9, #6cdbeb);
+    border-image-slice: 1; */
+    /* color: white; */
+}
+
+.link h3 {
+    padding: 0rem 1rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "company": "British Telecom",
+        "project": "Fault Management Portal",
+        "time": 14,
+        "description": "Manage Fault/Status in various Network Components"
+    },
+    {
+        "company": "VendorInfra",
+        "project": "Digital Collaboration Platform for Infrastructure Companies",
+        "time": 8,
+        "description": "E-Commerce Platform for Infrastructure Hardwares"
+    },
+    {
+        "company": "Indian Air Force",
+        "project": "Element Management System",
+        "time": 8,
+        "description": "Manage Fault/Status in various Network Components"
+    },
+    {
+        "company": "MagicBricks",
+        "project": "Bank Recommendation System",
+        "time": 8,
+        "description": "Expert System that Recommend Banks by getting information from Customer"
+    }
+]

@@ -1,0 +1,32 @@
+<div class="status">
+    <h1>Interests</h1>
+</div>
+<div class="cards">
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                <th>Interest</th>
+                <th>Type</th>
+                <th>Tool</th>
+                <th>Craft Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let interest of interests">
+                    <td>{{interest.interestName}}</td>
+                    <td>{{interest.type}}</td>
+                    <td>{{interest.tool}}</td>
+                    <td><span class="tooltip">Links
+                        <div class="right">
+                            <p *ngFor="let link of interest.craftLink; let i = index">
+                                <a href="{{link}}" _blank>Link-{{i+1}}</a>
+                            </p>
+                            <i></i>
+                        </div>
+                    </span></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
