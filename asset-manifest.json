@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2181e281.css",
-    "main.js": "/portfolio/static/js/main.ef9c8a3f.js",
+    "main.js": "/portfolio/static/js/main.3c097193.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/sanyam-dev-2.jpg": "/portfolio/static/media/sanyam-dev-2.cb9fca282b1ddb63a0f2.jpg",
     "index.html": "/portfolio/index.html",
     "main.2181e281.css.map": "/portfolio/static/css/main.2181e281.css.map",
-    "main.ef9c8a3f.js.map": "/portfolio/static/js/main.ef9c8a3f.js.map",
+    "main.3c097193.js.map": "/portfolio/static/js/main.3c097193.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2181e281.css",
-    "static/js/main.ef9c8a3f.js"
+    "static/js/main.3c097193.js"
   ]
 }
