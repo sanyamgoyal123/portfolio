@@ -6,8 +6,13 @@ import Projects from './components/content/Projects';
 import HeaderContent from './components/header/HeaderContent';
 import ContactMe from './components/content/ContactMe';
 import ParticleBackground from './components/particle/Particle';
+import { scrollHandle } from './util/ScrollUtil';
 
 function App() {
+
+  useEffect(() => {
+    scrollHandle(undefined, 'home-')
+  }, [])
 
   return (
     <>
