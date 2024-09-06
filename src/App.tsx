@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import AboutMe from './components/content/AboutMe';
@@ -8,6 +8,7 @@ import ContactMe from './components/content/ContactMe';
 import ParticleBackground from './components/particle/Particle';
 
 function App() {
+
   return (
     <>
       <ParticleBackground />
