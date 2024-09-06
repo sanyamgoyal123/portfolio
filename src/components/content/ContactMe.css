@@ -1,0 +1,25 @@
+.contact-me-wrapper {
+    margin-left: 15rem;
+    margin-top: 8rem;
+    margin-right: 15rem;
+    a {
+        display: grid;
+        text-align: center;
+        background-color: #171717;
+        place-items: center;
+        padding-block: 3rem;
+        text-decoration: none;
+        align-self: center;
+        border-radius: 0.375rem;
+        .title {
+            font-weight: normal;
+            font-size: 35px;
+        }
+    }
+    a:hover {
+        h2 {
+            transition: all 0.25s ease-in-out;
+            transform: scale(1.05);
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.header-content {
+    margin-left: 15rem;
+    margin-top: 8rem;
+    .title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 2.3em;
+    }
+    .discover-projects {
+        text-decoration: none;
+        padding: 15px 25px;
+        background: blue;
+        color: white;
+        border-radius: 9999px;
+        font-size: 18px;
+    }
+    .discover-projects:hover {
+        background: -webkit-linear-gradient(rgb(239, 239, 175), white);
+        color: black;
+    }
+}
+
+.wave-animation {
+    animation-name: wave;
+    animation-duration: 1.5s;
+    animation-iteration-count: 3;
+    display: inline-block;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.yellow-gradiant-header-content {
+    background: -webkit-linear-gradient(wheat, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+    color: white;
+}

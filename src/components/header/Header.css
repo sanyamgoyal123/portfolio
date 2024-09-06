@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    backdrop-filter: blur(4px);
+    --backdrop-blur: blur(4px);
+    .logo {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 20%;
+        .link {
+            font-size: 0.8rem;
+            color: white;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        color: wheat;
+    }
+}

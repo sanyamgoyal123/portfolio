@@ -1,0 +1,26 @@
+.about-me-wrapper {
+    color: white;
+    margin-left: 15rem;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    margin-right: 15rem;
+    justify-content: space-evenly;
+    .content {
+        .title {
+            font-weight: normal;
+            font-size: 35px;
+            letter-spacing: 1.5px;
+        }
+        .some-words {
+            font-size: 18px;
+            width: 80%;
+        }
+    }
+    .my-image {
+        .image {
+            border-radius: .375rem;
+            filter: grayscale(1);
+        }
+    }
+}
