@@ -1,4 +1,5 @@
 import './AboutMe.css';
+import profileImage from '../../images/sanyam-dev-2.jpg';
 
 function AboutMe() {
   return (
@@ -11,7 +12,7 @@ function AboutMe() {
             </div>
         </div>
         <div className="my-image">
-            <img src="/images/sanyam-dev-2.jpg" alt="Sanyam Goyal" width='300px' height='380px' className='image'/>
+            <img src={profileImage} alt="Sanyam Goyal" width='300px' height='380px' className='image'/>
         </div>
     </section>
   );
