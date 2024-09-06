@@ -3,7 +3,7 @@ import './HeaderContent.css';
 
 function HeaderContent() {
   return (
-    <section className='header-content'>
+    <section id='home' className='header-content'>
         <div className='title'>
           <h1>
             <div>Hi <span className='wave-animation'>👋</span></div>
